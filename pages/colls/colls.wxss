@@ -1,0 +1,12 @@
+.coll{
+  float: left;
+  width: 250rpx;
+  overflow: hidden;
+  height: 250rpx;
+  box-sizing: border-box;
+  border: 1rpx solid red;
+}
+.coll image{
+  height: 250rpx;
+  width: 250rpx;
+}

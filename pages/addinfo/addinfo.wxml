@@ -1,0 +1,46 @@
+<view class='all'>
+
+<view class='top'>
+    填写收货人：<input value='' class='box'
+    bindinput ="userNameInput"
+    ></input>
+    填写手机号：<input value='15680717059' class='box' type='number'
+    bindinput ="teleInput"
+    ></input>
+</view>
+<view class="section">
+  <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+    <view class="picker">
+    <view>
+
+    </view>
+    <view>
+      选择地址：<view class='box' >
+                <view class='adr'> 
+                {{region[0]}}
+                </view>
+                <view class='adr'>
+                {{region[1]}}
+                </view>
+                <view class='adr'>
+                {{region[2]}}
+                </view>
+      
+      </view>
+    </view>
+   
+    </view>
+  </picker>
+
+
+    详细地址：<input value='' class='box'
+        bindinput ="addressInput"
+    ></input>
+
+</view>
+
+  <view bindtap='sub' class='bot'>保存收获地址</view>
+
+
+
+</view>

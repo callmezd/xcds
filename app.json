@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/serch/serch",
+    
+        "pages/mine/mine",
+    "pages/home/home",
+    "pages/colls/colls",
+    "pages/shoppingcar/shoppingcar",
+
+    "pages/alladd/alladd",
+    "pages/addinfo/addinfo",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#929292",
+    "selectedColor": "#2c2c2c",
+    "backgroundColor": "",
+    "borderStyle": "yellow",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "icon/home-off.png",
+        "selectedIconPath": "icon/home.png"
+      },
+      {
+        "pagePath": "pages/colls/colls",
+        "text": "分类",
+        "iconPath": "icon/colls-off.png",
+        "selectedIconPath": "icon/colls.png"
+      },
+      {
+        "pagePath": "pages/shoppingcar/shoppingcar",
+        "text": "购物车",
+        "iconPath": "icon/car-off.png",
+        "selectedIconPath": "icon/car.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icon/my-off.png",
+        "selectedIconPath": "icon/my.png"
+      }
+    ]
+  }
+}

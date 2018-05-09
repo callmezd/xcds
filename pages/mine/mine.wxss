@@ -1,0 +1,46 @@
+/* pages/mine/mine.wxss */
+page{
+  height: 100%;
+  width:100%;
+}
+.mine{
+  background: #ebddda;
+  height: 100%;
+  width:100%;
+  overflow: hidden;
+}
+.top{
+  border-top:1rpx solid #929292;
+  border-bottom:1rpx solid #929292;
+  overflow: hidden;
+  padding: 20rpx 20rpx;
+  box-sizing: border-box;
+  background: #fff;
+}
+.top text{
+  display: block;
+  float: left;
+
+}
+.usericon{
+  height: 150rpx;
+  width: 150rpx;
+  border-radius:50%; 
+  float: right;
+}
+.mid,.add{
+    padding: 20rpx 60rpx 20rpx 20rpx;
+  
+  border-top:1rpx solid #929292;
+  border-bottom:1rpx solid #929292;
+  margin:  25rpx 0 10rpx;
+    background: #fff;
+  height: 60rpx;
+  line-height: 60rpx;
+  overflow: hidden;
+  
+}
+.mid view text{
+  float:right;
+  font-size: 33rpx;
+}

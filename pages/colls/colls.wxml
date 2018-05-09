@@ -1,0 +1,17 @@
+<view class='all'>
+  <view class='coll'>
+    <image src='/icon/home.png'></image>
+  </view>
+  <view class='coll'>
+    <image></image>
+  </view>
+  <view class='coll'>
+    <image></image>
+  </view>
+  <view class='coll'>
+    <image></image>
+  </view>
+  <view class='coll'>
+    <image></image>
+  </view>
+</view>

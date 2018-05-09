@@ -1,0 +1,40 @@
+<view class='coll'>
+<view class='serch_rwap' bindtap='goserch'>
+  <view class='serch'>
+<image src='/icon/serch.png'></image>
+<p>搜你想要的</p>
+</view>
+</view>
+
+<swiper indicator-dots="true"
+  autoplay="true" interval="1500" duration="1500" circular="true">
+  <block wx:for="{{imgUrls}}" wx:key="index">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+  <view class='coll_t'>
+    <view class='coll_t1'>
+       <image src="/image/01vegetables.jpg"></image>
+    </view>
+    <view class='coll_t2'>
+        
+        <image src='/image/02fruit.jpg'></image>
+        <image src="/image/03beans.jpg"></image>
+    </view>
+  </view>
+
+  <view class='coll_m'>
+    <image src="/image/04ganhuo.jpg"></image>
+            <image src="/image/05yanhuo.jpg"></image>
+            <image src="/image/06Oil.jpg"></image>
+            <image src="/image/07tiaoliao.jpg"></image>
+  </view>
+     <view class='coll_b'> 
+       <image src="/image/08meat.jpg"></image>
+            <image src="/image/09water.jpg"></image>
+     </view>        
+            
+</view>
+            

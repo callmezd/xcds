@@ -1,0 +1,25 @@
+<!--pages/mine/mine.wxml-->
+<view class='mine'>
+        <view class='top'>
+        <text>{{userInfo.nickName}}</text>
+        
+        <image src="{{avatarUrl}}" class='usericon'></image>
+      </view>
+
+      <view class='mid'>
+        <view>我的订单
+          <text>查看全部订单</text>
+        </view>
+      <view>
+        
+        
+
+      </view>
+      </view>
+
+      <view class='add'>
+  <view bindtap='goadd'>地址管理</view>
+ </view>
+</view>
+
+

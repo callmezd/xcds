@@ -1,0 +1,16 @@
+<view class='serch_rwap' >
+  <view class='serch'>
+  <input placeholder='搜索你想要的' bindinput='goserch' value='{{serchVuale}}'></input>
+  <image src='/icon/serch.png'  bindtap='serchnow'></image>
+  </view>
+</view>
+
+
+<view  class='bigBox' hidden='{{flag}}'>
+   <view class='box' wx:for="{{dataList}}" wx:for-item="item" wx:for-index="index" wx:key="{{index}}">
+      <view>{{item.goodsName}}</view>
+      <view>{{item.simpleDescribe}}</view>
+     <button bindtap='godetail' data-id="{{item.goodsId}}" size='mini'>查看详情</button>
+    </view> 
+  </view>
+  <view hidden='{{flag2}}'>没有结果</view>

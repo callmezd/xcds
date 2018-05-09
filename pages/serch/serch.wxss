@@ -1,0 +1,45 @@
+/* pages/serch/serch.wxss */
+page{
+  width: 100%;
+  height: 100%;
+  background:#EBEAEF;
+
+}
+.serch_rwap{
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 5rpx;
+}
+.serch{
+  width: 100%;
+  box-sizing: border-box;
+  padding:  5rpx 15rpx;
+  border-radius: 25rpx;
+  overflow: hidden;
+  border: 1rpx solid #EBEAEF;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.serch image,.serch input{
+  height: 42rpx;
+  color: #2c2c2c;
+  float: left;
+  font-size: 35rpx;
+  display: block;
+  line-height: 42rpx;
+}
+.serch image{
+    width: 55rpx;
+    height: 55rpx;
+}
+.serch input{
+  flex: 1;
+  height: 42rpx;
+}
+.box{
+  border:1rpx solid red;
+  margin: 10rpx;
+  box-sizing: border-box;
+}

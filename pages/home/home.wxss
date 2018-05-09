@@ -1,0 +1,94 @@
+/* pages/home/home.wxss */
+page{
+  width: 100%;
+  height: 100%;
+  background:#EBEAEF;
+
+}
+.serch_rwap{
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 5rpx;
+}
+.serch{
+  width: 100%;
+  box-sizing: border-box;
+  padding:  5rpx 15rpx;
+  border-radius: 25rpx;
+  overflow: hidden;
+  border: 1rpx solid #EBEAEF;
+  background: #fff;
+}
+.serch image,.serch p{
+    height: 42rpx;
+  color: #2c2c2c;
+  float: left;
+  font-size: 35rpx;
+  line-height: 42rpx;
+}
+.serch image{
+  width: 42rpx;
+}
+.coll_t{
+  width: 100%;
+  padding-top:5rpx;
+  box-sizing: border-box;  
+}
+.coll_t1{
+  box-sizing: border-box;  
+
+  padding-right:5rpx;
+}
+.coll_t2 image:nth-child(2){
+  box-sizing: border-box;  
+  padding-top:5rpx;
+}
+.coll_t1,.coll_t2{
+  height: 306.6rpx;
+  overflow: hidden;
+  width: 375rpx;
+  float: left;
+}
+.coll_t1 image{
+  width:100%;
+  height: 100%;
+}
+.coll_t2 image{
+  vertical-align:top;
+  width:375rpx;
+  height: 50%;
+}
+.coll_m{
+  width: 100%;
+  padding-top:5rpx;
+  overflow: hidden; 
+  box-sizing: border-box; 
+}
+.coll_m image{
+  height: 234rpx;
+  float: left;
+  width: 25%;
+  box-sizing: border-box;  
+  padding-right:5rpx;
+}
+.coll_m image:nth-last-child(1){
+  padding: 0;
+}
+.coll_b{
+  overflow: hidden;
+  box-sizing: border-box;  
+  padding-top:5rpx;
+  width: 100%;
+  float: left;
+  height: 153.3rpx;
+}
+.coll_b image{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.coll_b image:nth-child(1){
+  box-sizing: border-box;  
+  padding-right:5rpx;
+}
